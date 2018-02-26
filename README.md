@@ -5,7 +5,6 @@
 <br>
 * API Root
   <br>
-  <br>
   瀏覽[http://127.0.0.1:8000/api/](http://127.0.0.1:8000/api/)，取得API Root。
   ![Imgur](https://i.imgur.com/Yhku9my.png)
   <br>

@@ -22,7 +22,7 @@
   <br>
 * GET（讀取資源）
   <br>
-  造訪[http://127.0.0.1:8000/api/CusApp/](http://127.0.0.1:8000/api/CusApp/)（以下簡稱客戶API），取得**所有客戶資料**，並允許HTTP請求方法**「GET（讀取）、POST（新增）、 HEAD、OPTIONS」**。
+  造訪[http://127.0.0.1:8000/api/CusApp/](http://127.0.0.1:8000/api/CusApp/)（以下簡稱客戶API），取得**所有客戶資料**，並允許HTTP請求方法「GET（讀取）、POST（新增）、 HEAD、OPTIONS」。
   ![Imgur](https://i.imgur.com/88hqIbk.png)
   <br>
   於客戶API後加入?format=json，如[http://127.0.0.1:8000/api/CusApp/?format=json](http://127.0.0.1:8000/api/CusApp/?format=json)，返回**JSON格式下，所有客戶資料**。

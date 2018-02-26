@@ -22,14 +22,15 @@
   <br>
 * GET（讀取資源）
   <br>
-  造訪[http://127.0.0.1:8000/api/CusApp/](http://127.0.0.1:8000/api/CusApp/)，取得**所有客戶資料**。
+  造訪[http://127.0.0.1:8000/api/CusApp/](http://127.0.0.1:8000/api/CusApp/)（以下簡稱客戶API），取得**所有客戶資料**。
   ![Imgur](https://i.imgur.com/88hqIbk.png)
   <br>
-  於上述網址後加入`?format=json`，如[http://127.0.0.1:8000/api/CusApp/?format=json](http://127.0.0.1:8000/api/CusApp/?format=json)，返回**JSON格式下，所有客戶資料**。
+  於客戶API後加入?format=json，如[http://127.0.0.1:8000/api/CusApp/?format=json](http://127.0.0.1:8000/api/CusApp/?format=json)，返回**JSON格式下，所有客戶資料**。
   ![Imgur](https://i.imgur.com/HP4ge1o.png)
   <br>
-  <br>
-  123
+  於客戶API後加入id，如[http://127.0.0.1:8000/api/CusApp/93/](http://127.0.0.1:8000/api/CusApp/93/)，返回**該id下，客戶資料**。
+  ![Imgur](https://i.imgur.com/xGe4t1E.png)
+  
 
   
   

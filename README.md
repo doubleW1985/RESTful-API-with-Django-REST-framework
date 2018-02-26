@@ -4,8 +4,6 @@
 <br>
 <br>
 * API Root
-  <br>
-  <br>
   ![Imgur](https://i.imgur.com/Yhku9my.png)
   <br>
   <br>

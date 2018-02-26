@@ -8,7 +8,9 @@
 <br>
 <br>
 * Authentication
-  ![Imgur](https://i.imgur.com/qJRXY6n.png)
+<br>
+  ![Imgur](https://i.imgur.com/qJRXY6n.png)
+<br>  
   ![Imgur](https://i.imgur.com/UR2h1yG.png)
 <br>
 <br>

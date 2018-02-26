@@ -16,6 +16,7 @@
   <br>
   授權方式是以命令提示字元（cmd）於專案下，使用以下指令建立超級使用者。
   >python manage.py createsuperuser
+  
   ![Imgur](https://i.imgur.com/UR2h1yG.png)
   <br>
   <br>

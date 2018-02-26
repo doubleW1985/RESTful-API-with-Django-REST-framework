@@ -32,7 +32,7 @@
   ![Imgur](https://i.imgur.com/xGe4t1E.png)
   <br>
   承上，於id後加入detail_part/，如[http://127.0.0.1:8000/api/CusApp/90/detail_part/](http://127.0.0.1:8000/api/CusApp/90/detail_part/)，同樣返回**該id下，客戶(部分)資料**，但僅允許HTTP請求方法「GET、HEAD、OPTIONS」（即不允許替換、部分更新或刪除）。
-  [Imgur](https://i.imgur.com/5uHLwtj.png)
+  ![Imgur](https://i.imgur.com/5uHLwtj.png)
   <br>
   
 

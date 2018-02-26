@@ -9,8 +9,11 @@
   <br>
 * Authentication
   ![Imgur](https://i.imgur.com/qJRXY6n.png)
-  專案下建立超級使用者
+  
+  專案下建立超級使用者
+  
   >python manage.py createsuperuser
+  
   ![Imgur](https://i.imgur.com/UR2h1yG.png)
   <br>
   <br>

@@ -7,7 +7,8 @@
   ![Imgur](https://i.imgur.com/Yhku9my.png)
 <br>
 <br>
-* API Root
+
+* Authentication
 <br>
   ![Imgur](https://i.imgur.com/qJRXY6n.png)
 <br>  

@@ -4,7 +4,7 @@
 <br>
 <br>
 * API Root
-  ![Imgur](https://imgur.com/Yhku9my)
+  ![Imgur](https://i.imgur.com/Yhku9my.png)
 <br>
 <br>
 * Authentication

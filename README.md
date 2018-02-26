@@ -25,7 +25,7 @@
   造訪[http://127.0.0.1:8000/api/CusApp/](http://127.0.0.1:8000/api/CusApp/)，取得所有客戶資料。
   ![Imgur](https://i.imgur.com/88hqIbk.png)
   <br>
-  於上述網址後加入`?format=json`（如[http://127.0.0.1:8000/api/CusApp/?format=json]（http://127.0.0.1:8000/api/CusApp/?format=json）），返回JSON格式下，所有客戶資料。
+  於上述網址後加入`?format=json`，如[http://127.0.0.1:8000/api/CusApp/?format=json](http://127.0.0.1:8000/api/CusApp/?format=json)，返回JSON格式下，所有客戶資料。
   ![Imgur](https://i.imgur.com/HP4ge1o.png)
   <br>
   <br>

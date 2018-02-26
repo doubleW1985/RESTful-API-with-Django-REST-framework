@@ -11,7 +11,10 @@
   <br>
 * Authentication
   <br>
-  建立授權，以防API遭他人不受限制操作。
+  造訪[http://127.0.0.1:8000/api/CusApp/](http://127.0.0.1:8000/api/CusApp/)，如未取得授權，API將傳回`HTTP 403 Forbidden‵狀態碼。
+
+  
+  建立授權，以防API遭他人不受限制操作。
   ![Imgur](https://i.imgur.com/qJRXY6n.png)
   <br>
   使用命令提示字元 (cmd ) 於專案下建立超級使用者。

@@ -5,13 +5,13 @@
 <br>
 * API Root
   ![Imgur](https://i.imgur.com/Yhku9my.png)
-<br>
-<br>
+  <br>
+  <br>
 * Authentication
   ![Imgur](https://i.imgur.com/qJRXY6n.png)
   ![Imgur](https://i.imgur.com/UR2h1yG.png)
-<br>
-<br>
+  <br>
+  <br>
 
   
   

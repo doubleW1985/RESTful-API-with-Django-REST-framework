@@ -5,15 +5,17 @@
 <br>
 * API Root
   <br>
-  瀏覽[http://127.0.0.1:8000/api/](http://127.0.0.1:8000/api/)，取得API Root。
+  造訪[http://127.0.0.1:8000/api/](http://127.0.0.1:8000/api/)，取得API Root。
   ![Imgur](https://i.imgur.com/Yhku9my.png)
   <br>
   <br>
 * Authentication
-  ![Imgur](https://i.imgur.com/qJRXY6n.png)
+  <br>
+  建立授權，以防API遭他人不受限制操作。
+  ![Imgur](https://i.imgur.com/qJRXY6n.png)
+  <br>
+  使用命令提示字元 (cmd ) 於專案下建立超級使用者。
   
-  專案下建立超級使用者
-  
   >python manage.py createsuperuser
   
   ![Imgur](https://i.imgur.com/UR2h1yG.png)

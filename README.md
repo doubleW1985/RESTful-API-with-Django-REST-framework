@@ -53,7 +53,14 @@
    <br>
    <br>
 * DELETE（資源刪除）
-
+  <br>
+  造訪某一id客戶資料，如[http://127.0.0.1:8000/api/CusApp/92/](http://127.0.0.1:8000/api/CusApp/92/)，可於HTTP允許之請求方法「DELETE」下，進行資源刪除，並於刪除成功後返回`HTTP 204 No Content`（無資源）狀態碼。
+  ![Imgur](https://i.imgur.com/jyWxwB3.png)
+  ![Imgur](https://i.imgur.com/dbKVovZ.png)
+  ![Imgur](https://i.imgur.com/CLX5R2D.png)
+   <br>
+   <br>
+* POST（資源新增）
 
   
   

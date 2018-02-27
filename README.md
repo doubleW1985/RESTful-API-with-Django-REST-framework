@@ -40,7 +40,8 @@
    於客戶API後加入`all_company/`，如[http://127.0.0.1:8000/api/CusApp/all_company/](http://127.0.0.1:8000/api/CusApp/all_company/)，返回客戶API中**所有客戶公司名稱**，並僅允許HTTP請求方法「GET、HEAD、OPTIONS」（即不允許異動）。
    ![Imgur](https://i.imgur.com/zqfVhtK.png)
    <br>
-  
+   <br>
+* PUT（替換資源）
 
   
   

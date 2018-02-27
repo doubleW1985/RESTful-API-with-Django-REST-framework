@@ -54,13 +54,21 @@
    <br>
 * DELETE（資源刪除）
   <br>
-  造訪某一id客戶資料，如[http://127.0.0.1:8000/api/CusApp/92/](http://127.0.0.1:8000/api/CusApp/92/)，可於HTTP允許之請求方法「DELETE」下，進行資源刪除，並於刪除成功後返回`HTTP 204 No Content`（無資源）狀態碼。
+  造訪某一id客戶資料，如[http://127.0.0.1:8000/api/CusApp/92/](http://127.0.0.1:8000/api/CusApp/92/)，可於HTTP允許之請求方法「DELETE」下，進行資源刪除，並於刪除成功後返回`HTTP 204 No Content`（成功刪除）狀態碼。
   ![Imgur](https://i.imgur.com/jyWxwB3.png)
   ![Imgur](https://i.imgur.com/dbKVovZ.png)
   ![Imgur](https://i.imgur.com/CLX5R2D.png)
    <br>
    <br>
 * POST（資源新增）
+  <br>
+  造訪[http://127.0.0.1:8000/api/CusApp/](http://127.0.0.1:8000/api/CusApp/)，可於HTTP允許之請求方法「POST」下，進行資源新增，並於新增成功後返回`HTTP 201 Created`（成功建立）狀態碼。
+  ![Imgur](https://i.imgur.com/13D0XA0.png)
+  <br>
+  如需於該view限定Content-Type為application/json，直接於[views.py](https://github.com/doubleW1985/RESTful-API-with-Django-REST-framework/blob/master/DjangoRestFramework/CusApp/views.py)加入`parser_classes = (JSONParser,)`即可。更多資訊可參考(http://www.django-rest-framework.org/api-guide/parsers/#parsersr)[http://www.django-rest-framework.org/api-guide/parsers/#parsersr]。 
+  ![Imgur](https://i.imgur.com/VkJP9fx.png)
+  ![Imgur](https://i.imgur.com/Sr9CCze.png)
+  
 
   
   

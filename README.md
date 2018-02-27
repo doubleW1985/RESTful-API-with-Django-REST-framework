@@ -34,14 +34,20 @@
   承上，於id後加入`detail_part/`，如[http://127.0.0.1:8000/api/CusApp/90/detail_part/](http://127.0.0.1:8000/api/CusApp/90/detail_part/)，同樣返回**該id下，客戶(部分)資料**，但僅允許HTTP請求方法「GET、HEAD、OPTIONS」（即不允許異動）。
   ![Imgur](https://i.imgur.com/5uHLwtj.png)
   <br>
-  於客戶API後加入`raw_sql_query/?CompanyQuery=`以及`欲查詢公司名稱`，如[http://127.0.0.1:8000/api/CusApp/raw_sql_query/?CompanyQuery=WILMAN KALA](http://127.0.0.1:8000/api/CusApp/raw_sql_query/?CompanyQuery=WILMAN%20KALA)，返回**該公司名稱下，客戶資料**，並僅允許HTTP請求方法「GET、HEAD、OPTIONS」（即不允許異動）。
+  於客戶API後加入`raw_sql_query/?CompanyQuery=`以及參數`欲查詢公司名稱`，如[http://127.0.0.1:8000/api/CusApp/raw_sql_query/?CompanyQuery=WILMAN KALA](http://127.0.0.1:8000/api/CusApp/raw_sql_query/?CompanyQuery=WILMAN%20KALA)，可以SELECT SQL句法，返回**該公司名稱下，客戶資料**，並僅允許HTTP請求方法「GET、HEAD、OPTIONS」（即不允許異動）。
   ![Imgur](https://i.imgur.com/uzd2ifR.png)
   <br>
    於客戶API後加入`all_company/`，如[http://127.0.0.1:8000/api/CusApp/all_company/](http://127.0.0.1:8000/api/CusApp/all_company/)，返回客戶API中**所有客戶公司名稱**，並僅允許HTTP請求方法「GET、HEAD、OPTIONS」（即不允許異動）。
    ![Imgur](https://i.imgur.com/zqfVhtK.png)
    <br>
    <br>
-* PUT（替換資源）
+* PUT（資源替換） vs PATCH（資源部分更新）
+  <br>
+  造訪某一id客戶資料，如[http://127.0.0.1:8000/api/CusApp/93/](http://127.0.0.1:8000/api/CusApp/93/)，可於HTTP允許之請求方法「PUT、PATCH」下進行資源替換或資源部分更新。
+  ![Imgur](https://i.imgur.com/DsO0ynB.png)
+  ![Imgur](https://i.imgur.com/0lOxD1b.png)
+  <br>
+  
 
   
   

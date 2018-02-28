@@ -90,8 +90,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',  # or use mysql.connector.django 
         'NAME': 'd2eipDjango',
-        'USER': 'root',
-        'PASSWORD': 'root',
+        'USER': '***user_name***',
+        'PASSWORD': '***user_passwd***',
         'HOST':'localhost',
         'PORT':'3306',
     }

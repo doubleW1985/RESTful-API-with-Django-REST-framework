@@ -1,6 +1,6 @@
 ## RESTful API with Django REST framework
 
-利用[Django REST framework](http://www.django-rest-framework.org/)，快速打造客戶資料之`RESTful API`。
+利用[Django REST framework](http://www.django-rest-framework.org/)，快速打造「Customers」的`RESTful API`。
 <br>
 <br>
 * API Root
